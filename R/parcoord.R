@@ -1,5 +1,4 @@
 #' @export
-#' @importFrom magrittr "%>%"
 inz.parcoord <- function(data.name, vars = NULL, group = NULL, show.points = TRUE, scale.fun = scale, alpha = 0.25) {
   if (is.character(data.name)) {
     data.name <- rlang::sym(data.name)
